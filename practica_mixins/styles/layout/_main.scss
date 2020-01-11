@@ -1,0 +1,7 @@
+.box {
+    @include float;
+    @include position (30px, 10px);
+    @include width (100%, 500px, 1100px);
+    @include height (50px, 30px, 100px);
+    @include flex (center, center, wrap, column);
+}
