@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#body-index {
+    background-color: $body-bk-color;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+    h1 {
+        text-transform: uppercase;
+        margin: 50px;
+        font-size: large;
+    }
+
+    .main-card-container {
+        width: 100%;
+        padding: 0 50px;
+    }
+}
+
+.page-info {
+    color: #666;
+    height: 200px;
+    padding: 30px 50px;
+    background-color: #fff;
+    @include flex-row;
+    align-items: flex-start;
+    .showing {
+        margin: 0;
+    }
+    .pages-list {
+        @include flex-row;
+        align-items: flex-start;
+        cursor: pointer;
+        li {
+            padding: 0 10px;
+            i {
+                font-size: 30px;
+                color: #ccc;
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.footer {
+    display: flex;
+    padding: 50px;
+    padding-bottom: 100px;
+    align-items: flex-start;
+    font-size: 14px;
+    background-color: $footer-bk-color;
+    color: #fff;
+}
+
+.footer-menu-list {
+    text-align: left;
+    margin: 0 70px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    .footer-menu-item {
+        padding-right: 20px;
+    }
+}
+
+.footer-menu-title {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.footer-menu-item {
+    color: rgb(212, 215, 233);
+    margin-bottom: 7px;
+    font-size: 12px;
+}

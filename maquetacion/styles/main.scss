@@ -1,12 +1,11 @@
 @import 'utils/variables';
 @import 'utils/mixins';
 
-@import 'components/buttons';
-@import 'components/inputs';
-
 @import 'layout/header';
 @import 'layout/footer';
-@import 'layout/main';
-
 
 @import 'pages/home';
+
+@import 'components/buttons';
+@import 'components/imgs';
+@import 'components/cards';

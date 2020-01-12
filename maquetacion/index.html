@@ -3,6 +3,7 @@
 
 <head>
     <title>Practica Sass Mixins</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
     <script> </script>
@@ -10,7 +11,7 @@
 </head>
 <header class="main-header">
     <div class="upper-main-header">
-        <img src="" alt="" class="header-logo">
+        <img src="imgs/hubstaff_logo.png" alt="" class="header-logo">
         <nav>
             <ul class="header-nav-list">
                 <li class="header-nav-item">How it works</li>
@@ -26,7 +27,7 @@
             <p class="category-item">Home</p>
             <p class="category-item">All categories</p>
             <p class="category-item">Design & Multimedia</p>
-            <p class="category-item">Profiles</p>
+            <p class="category-item-selected">Profiles</p>
         </div>
         <div class="bottom-hdr-icons">
             <i class="fas fa-bars"></i>
@@ -40,21 +41,164 @@
     <section class="main-card-container">
         <article class="profile-card">
             <header class="card-header">
-                <p class="avaiable">Available</p>
+                <p class="available">Available</p>
                 <p class="price">$55/hr</p>
             </header>
-            <img src="" alt="" class="profile-pic">
+            <img src="imgs/1.jpg" alt="" class="profile-pic">
             <p class="profile-name">Wade</p>
             <p class="profession">UI/UX designer</p>
+            <p class="group-1"><i class="fas fa-code"></i>  Epic Coder</p>
             <ul class="skills-list">
-                <li class="skillls-item">UI</li>
-                <li class="skillls-item">UX</li>
-                <li class="skillls-item">photoshop</li>
-                <li class="skillls-more">+4</li>
+                <li class="skills-item">UI</li>
+                <li class="skills-item">UX</li>
+                <li class="skills-item">photoshop</li>
+                <li class="skills-more">+4</li>
             </ul>
-            <p class="profile-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
-                exercitationem reiciendis sed eum quidem eos necessitatibus quam ipsum officia voluptatibus alias.
-                Molestias velit tenetur maiores praesentium, dolorum aspernatur! Qui, sequi!</p>
+            <p class="profile-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, sequi!</p>
+            <button class="view-profile">View profile</button>
+        </article>
+        <article class="profile-card">
+            <header class="card-header">
+                <p class="available">Available</p>
+                <p class="price">$55/hr</p>
+            </header>
+            <img src="imgs/2.jpg" alt="" class="profile-pic">
+            <p class="profile-name">Wade</p>
+            <p class="profession">UI/UX designer</p>
+            <p class="group-2"><i class="fas fa-user"></i>  Freelancer</p>
+            <ul class="skills-list">
+                <li class="skills-item">UI</li>
+                <li class="skills-item">UX</li>
+                <li class="skills-item">photoshop</li>
+                <li class="skills-more">+4</li>
+            </ul>
+            <p class="profile-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, sequi!</p>
+            <button class="view-profile">View profile</button>
+        </article>
+        <article class="profile-card">
+            <header class="card-header">
+                <p class="available hidden">Available</p>
+                <p class="price">$55/hr</p>
+            </header>
+            <img src="imgs/3.jpg" alt="" class="profile-pic">
+            <p class="profile-name">Wade</p>
+            <p class="profession">UI/UX designer</p>
+            <p class="group-1"><i class="fas fa-code"></i> Epic Coder</p>
+            <ul class="skills-list">
+                <li class="skills-item">UI</li>
+                <li class="skills-item">UX</li>
+                <li class="skills-item">photoshop</li>
+                <li class="skills-more">+4</li>
+            </ul>
+            <p class="profile-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, sequi!</p>
+            <button class="view-profile">View profile</button>
+        </article>
+        <article class="profile-card">
+            <header class="card-header">
+                <p class="available">Available</p>
+                <p class="price">$55/hr</p>
+            </header>
+            <img src="imgs/4.jpg" alt="" class="profile-pic">
+            <p class="profile-name">Wade</p>
+            <p class="profession">UI/UX designer</p>
+            <p class="group-1"><i class="fas fa-code"></i> Epic Coder</p>
+            <ul class="skills-list">
+                <li class="skills-item">UI</li>
+                <li class="skills-item">UX</li>
+                <li class="skills-item">photoshop</li>
+                <li class="skills-more">+4</li>
+            </ul>
+            <p class="profile-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, sequi!</p>
+            <button class="view-profile">View profile</button>
+        </article>
+        <article class="profile-card">
+            <header class="card-header">
+                <p class="available">Available</p>
+                <p class="price">$55/hr</p>
+            </header>
+            <img src="imgs/5.jpg" alt="" class="profile-pic">
+            <p class="profile-name">Wade</p>
+            <p class="profession">UI/UX designer</p>
+            <p class="group-1"><i class="fas fa-code"></i> Epic Coder</p>
+            <ul class="skills-list">
+                <li class="skills-item">UI</li>
+                <li class="skills-item">UX</li>
+                <li class="skills-item">photoshop</li>
+                <li class="skills-more">+4</li>
+            </ul>
+            <p class="profile-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, sequi!</p>
+            <button class="view-profile">View profile</button>
+        </article>
+        <article class="profile-card">
+            <header class="card-header">
+                <p class="available hidden">Available</p>
+                <p class="price">$55/hr</p>
+            </header>
+            <img src="imgs/6.jpg" alt="" class="profile-pic">
+            <p class="profile-name">Wade</p>
+            <p class="profession">UI/UX designer</p>
+            <p class="group-1"><i class="fas fa-code"></i> Epic Coder</p>
+            <ul class="skills-list">
+                <li class="skills-item">UI</li>
+                <li class="skills-item">UX</li>
+                <li class="skills-item">photoshop</li>
+                <li class="skills-more">+4</li>
+            </ul>
+            <p class="profile-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, sequi!</p>
+            <button class="view-profile">View profile</button>
+        </article>
+        <article class="profile-card">
+            <header class="card-header">
+                <p class="available">Available</p>
+                <p class="price">$55/hr</p>
+            </header>
+            <img src="imgs/7.jpg" alt="" class="profile-pic">
+            <p class="profile-name">Wade</p>
+            <p class="profession">UI/UX designer</p>
+            <p class="group-1"><i class="fas fa-code"></i> Epic Coder</p>
+            <ul class="skills-list">
+                <li class="skills-item">UI</li>
+                <li class="skills-item">UX</li>
+                <li class="skills-item">photoshop</li>
+                <li class="skills-more">+4</li>
+            </ul>
+            <p class="profile-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, sequi!</p>
+            <button class="view-profile">View profile</button>
+        </article>
+        <article class="profile-card">
+            <header class="card-header">
+                <p class="available">Available</p>
+                <p class="price">$55/hr</p>
+            </header>
+            <img src="imgs/8.jpg" alt="" class="profile-pic">
+            <p class="profile-name">Wade</p>
+            <p class="profession">UI/UX designer</p>
+            <p class="group-1"><i class="fas fa-code"></i> Epic Coder</p>
+            <ul class="skills-list">
+                <li class="skills-item">UI</li>
+                <li class="skills-item">UX</li>
+                <li class="skills-item">photoshop</li>
+                <li class="skills-more">+4</li>
+            </ul>
+            <p class="profile-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, sequi!</p>
+            <button class="view-profile">View profile</button>
+        </article>
+        <article class="profile-card">
+            <header class="card-header">
+                <p class="available hidden">Available</p>
+                <p class="price">$55/hr</p>
+            </header>
+            <img src="imgs/9.jpg" alt="" class="profile-pic">
+            <p class="profile-name">Wade</p>
+            <p class="profession">UI/UX designer</p>
+            <p class="group-1"><i class="fas fa-code"></i> Epic Coder</p>
+            <ul class="skills-list">
+                <li class="skills-item">UI</li>
+                <li class="skills-item">UX</li>
+                <li class="skills-item">photoshop</li>
+                <li class="skills-more">+4</li>
+            </ul>
+            <p class="profile-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, sequi!</p>
             <button class="view-profile">View profile</button>
         </article>
     </section>
@@ -78,7 +222,7 @@
     </section>
 </body>
 <footer class="footer">
-    <img src="" alt="" class="company-logo">
+    <img src="imgs/hubstaff_logo.png" alt="" class="header-logo">
     <ul class="footer-menu-list">
         <li class="footer-menu-title">Directory</li>
         <li class="footer-menu-item">How does it work</li>
@@ -103,10 +247,12 @@
     </ul>
     <ul class="footer-menu-list">
         <li class="footer-menu-title">Social</li>
-        <li class="footer-menu-item"><i class="fab fa-twitter"></i></li>
-        <li class="footer-menu-item"><i class="fab fa-facebook"></i></li>
-        <li class="footer-menu-item"><i class="fab fa-instagram"></i></li>
-    </ul>
+        <ul class="social">
+            <li class="footer-menu-item"><i class="fab fa-twitter"></i></li>
+            <li class="footer-menu-item"><i class="fab fa-facebook"></i></li>
+            <li class="footer-menu-item"><i class="fab fa-instagram"></i></li>
+        </ul>
+    </ul.social>
 </footer>
 
 </html>

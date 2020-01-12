@@ -1,0 +1,105 @@
+.main-card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+
+}
+
+.profile-card {
+    width: 30%;
+    background: $card-bk-color;
+    box-shadow: $shadow;
+    color: #444;
+    margin: 20px;
+    .card-header {
+        width: 100%;
+        @include flex-row;
+    }
+
+}
+
+p {
+    margin: 20px;
+}
+
+.profession, .profile-description {
+    color: #999;
+    font-size: 14px;
+}
+
+.available {
+    background-color: $available-bk-color;
+    border-radius: 30px;
+    color: #fff;
+    padding: 5px 15px;
+    text-transform: lowercase;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.profile-name {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.card-header {
+    position: relative;
+    height: 60px;
+}
+
+.price {
+    font-weight: 900;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.group-1 {
+    color: $main-color;
+}
+
+.group-2 {
+    color: $available-bk-color;
+}
+
+.skills-list {
+    @include flex-row;
+    margin: 0 25px;  
+    .skills-item {
+        border: 1px solid #ccc;
+        padding: 5px 20px;
+        border-radius: 15px;
+    }
+    .skills-more {
+        border: 1px solid $main-color;
+        color: #fff;
+        font-weight: 700;
+        padding: 5px 20px;
+        border-radius: 15px;
+        background-color: $main-color;
+        box-shadow: $shadow;
+    }
+}
+
+.view-profile {
+    text-transform: uppercase;
+    color: #555;
+    font-weight: 600;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    bordeR: 0;
+    background-color: white;
+    cursor: pointer;
+    &:hover {
+        background-color: $main-color;
+        color: #fff;
+    }
+}
